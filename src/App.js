@@ -1,6 +1,7 @@
 import { createContext, useContext, useState } from "react";
 import Price from "./components/Price";
 import Cupon from "./components/Cupon";
+import User from "./components/User";
 
 export const data = createContext();
 // tickets component
@@ -37,6 +38,7 @@ function Details () {
   return <div className="lg:w-[30%]">
       <Price/>
       <Cupon/>
+      <User/>
   </div>
 }
 
@@ -61,7 +63,7 @@ function App() {
     } 
   }
  
-  return <div className="w-full flex justify-between gap-6">
+  return <div className="w-full lg:w-5/6 mx-auto flex justify-between gap-6">
     <div className="w-[70%] grid grid-rows-10 gap-4">
       <data.Provider value={{clickHandler}}>
         <Tickets/>
