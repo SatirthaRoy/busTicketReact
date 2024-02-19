@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/busTicketReact/static/css/main.b5c35008.css",
+    "main.js": "/busTicketReact/static/js/main.2c453bf0.js",
+    "static/js/453.d1cba630.chunk.js": "/busTicketReact/static/js/453.d1cba630.chunk.js",
+    "index.html": "/busTicketReact/index.html",
+    "main.b5c35008.css.map": "/busTicketReact/static/css/main.b5c35008.css.map",
+    "main.2c453bf0.js.map": "/busTicketReact/static/js/main.2c453bf0.js.map",
+    "453.d1cba630.chunk.js.map": "/busTicketReact/static/js/453.d1cba630.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5c35008.css",
+    "static/js/main.2c453bf0.js"
+  ]
+}
